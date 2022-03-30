@@ -14,7 +14,7 @@
             /* 若都填写了账号密码和 cookie，会优先使用 cookie */
             /* cookie 失效后才会使用账号密码登录 */
             /* 填写方式详见 https://github.com/chen310/NeteaseCloudMusicTasks#%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81 */
-            "cookie": "",
+            "cookie": "MUSIC_U=d4b1b732a19643f382615258a13877e191c8362f1c947a630d62ac9f8a4a3515993166e004087dd3d78b6050a17a35e705925a4e6992f61dfe3f0151024f9e31;",
             /* 填写国内IP，否则可能会有无法登录等问题出现，多个账号最好设置不同的IP */
             /* 可填写本机IP，查看方法：https://www.ip138.com/ 填写显示的ip即可 */
             "X-Real-IP": "",
@@ -319,7 +319,7 @@
         /* 打卡刷歌 */
         "daka": {
             /* 是否开启任务 */
-            "enable": false,
+            "enable": true,
             /* 满级时自动停止 */
             "full_stop": true,
             /* 是否开启自动打卡，该模式下song_number和sleep_time参数将失效 */
